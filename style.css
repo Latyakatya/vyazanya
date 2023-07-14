@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Harmonia Sans Pro Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Harmonia Sans Pro Cyr") local("Harmonia Sans Pro Cyr'-Regular") url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
+      url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Harmonia Sans Pro Cyr', sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+.header__blog {
+    color: #FF006B;
+}
+
+.header__menu {
+    display: flex;
+    margin-bottom: 16;
+margin-top: -4;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: flex-end;
+    padding: 0%;
+    font-size: 22px;
+    line-height: normal;
+    margin-left: -2px;
+}
+
+.highlighted {
+    color: #FF006B;
+}
+
+.header__logo {
+    margin-right: 30px;
+    width: 61px;
+    height: 58px;
+}
+
+.content__paragraph {
+    display: flex;
+    width: 67.7%;
+    font-size: 24px;
+    line-height: normal;
+    margin: 0;
+    gap: 28px;
+    margin-left: -21px;
+    margin-top: -82px;
+}
+
+.content__image {
+    display: flex;
+    margin-left: -13px;
+    margin-top: 73px;
+}
+
+.container {
+position: relative;
+}
+
+.container img {
+height: auto;
+}
+
+.container p {
+position: absolute;
+top: 10px;   
+left: 10px;
+z-index: 2;
+}
+
+.content__figcaption {
+    font-size: 16px;
+    line-height: normal;
+    margin-left: -53px;
+margin-bottom: 54px;
+margin-top: -21px;
+}
+
+.footer {display: flex;
+}
+
+.footer__copyright {font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.social_icon { width: 5.2%;
+              height: 3.4%;
+}
+
+.social-link:not(:last-child) {
+                  margin-right: -13px;
+}
+
+.footer-contacts-phone {margin-top: -10px;
+}
+
+.footer-section { font-size: 16px;
+    line-height: 30px;
+    margin-top: 46px;
+margin-left: 33px;
+}
+.footer-section-container:nth-child(1) {
+    display: flex; 
+    transform: translateY(-46px) translateX(-48px);
+  }
+  
+  .footer-section-container:nth-child(2) {
+    display: flex; 
+    transform: translateX(-3px);
+  }
+  
+  .footer-section-container:nth-child(3) {
+    display: flex; 
+    transform: translateX(147px) translateY(7px);
+  }
+  address {
+    font-style: normal;
+  }
