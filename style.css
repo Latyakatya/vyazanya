@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local("Harmonia Sans Pro Cyr"), local("HarmoniaSansProCyr-Regular.woff2") format("woff2"),
+    src: local("Harmonia Sans Pro Cyr"), local("Harmonia Sans Pro Cyr Regular"), url("fonts/HarmoniaSansProCyr-Regular.woff2") format("woff2"),
          url("fonts/HarmoniaSansProCyr-Regular.woff") format("woff");
 }
 
@@ -13,30 +13,56 @@
     font-family: 'Harmonia Sans Pro Cyr', sans-serif;
 }
 
-header {
+.header {
     display: flex;
 }
 
-header nav ul li a.highlighted {
+.header__blog {
     color: #FF006B;
 }
 
-header img {
+.header__menu {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: flex-end;
+    padding: 0;
+    font-size: 22px;
+    line-height: normal;
+    margin-top: 17px;
+}
+
+.header__list a:not(.highlighted) {
+    text-decoration: none;
+    color: black;
+}
+
+.highlighted {
+    color: #FF006B;
+}
+
+.header__logo {
     margin-right: 30px;
     width: 61px;
     height: 58px;
 }
 
-.container p {
+.content__paragraph {
     width: 67.7%;
     font-size: 24px;
+    line-height: normal;
     margin: 0;
     gap: 28px;
     margin-top: -10px;
     margin-left: -19px;
 }
 
-.container img {
+.content__image {
     max-width: 100%;
     height: auto;
     margin-left: -12px;
@@ -49,42 +75,62 @@ header img {
 
 .container p {
     position: absolute;
-    top: 10px;   
+    top: 10px;
     left: 10px;
     z-index: 2;
 }
 
-figure figcaption {
+.content__figcaption {
     font-size: 16px;
+    line-height: normal;
     margin-left: -52px;
     margin-top: -17px;
 }
 
-footer {
+.footer {
     display: flex;
     margin-top: 52px;
 }
 
-footer div section p:first-child {
+.footer__copyright {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 11px;
 }
 
-footer div nav a img { 
+.social_icon {
     width: 5.2%;
     height: 3.4%;
 }
 
-footer div section p:last-child {
+.social-link:not(:last-child) {
+    margin-right: -13px;
+}
+
+.footer-contacts-phone {
     margin-top: -10px;
 }
 
-footer div section, footer div address {
+.footer-section {
     font-size: 16px;
     line-height: 30px;
     margin-top: 46px;
     margin-left: 33px;
+}
+
+.footer-section-container:nth-child(1) {
+    display: flex;
+    transform: translateY(-46px) translateX(-48px);
+}
+
+.footer-section-container:nth-child(2) {
+    display: flex;
+    transform: translateX(-3px);
+}
+
+.footer-section-container:nth-child(3) {
+    display: flex;
+    transform: translateX(147px) translateY(7px);
 }
 
 address {
