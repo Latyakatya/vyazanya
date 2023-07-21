@@ -87,41 +87,43 @@ z-index: 2;
     margin-top: -17px;
 }
 
-.footer {
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+.footer {display: flex;
 }
 
-.footer-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-title {
-    font-size: 20px;
+.footer__copyright {font-size: 20px;
     font-weight: 600;
+    margin-bottom: 11px;
 }
 
-.footer-email, .footer-phone {
-    margin-top: 15px;
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-address {
-    font-style: normal;
-    margin-top: 15px;
-}
-
-.footer-social {
-    display: flex;
-    justify-content: flex-end;
+.social_icon { width: 5.2%;
+              height: 3.4%;
 }
 
 .social-link:not(:last-child) {
-    margin-right: 30px;
+                  margin-right: -13px;
 }
+
+.footer-contacts-phone {margin-top: -10px;
+}
+
+.footer-section { font-size: 16px;
+    line-height: 30px;
+    margin-top: 46px;
+margin-left: 33px;
+}
+.footer-section-container:nth-child(1) {
+    display: flex; 
+    transform: translateY(-46px) translateX(-48px);
+  }
+  
+  .footer-section-container:nth-child(2) {
+    display: flex; 
+    transform: translateX(-3px);
+  }
+  
+  .footer-section-container:nth-child(3) {
+    display: flex; 
+    transform: translateX(147px) translateY(7px);
+  }
+  address {
+    font-style: normal;
