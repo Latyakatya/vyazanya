@@ -34,6 +34,7 @@
     padding: 0;
     font-size: 22px;
     line-height: normal;
+    margin-top: 17px;
 }
 
 .highlighted {
@@ -52,11 +53,14 @@
     line-height: normal;
     margin: 0;
     gap: 28px;
+    margin-top: -10px;
+    margin-left: -19px;
 }
 
 .content__image {
     max-width: 100%;
     height: auto;
+     margin-left: -12px;
 }
 
 .container {
