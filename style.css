@@ -35,6 +35,9 @@
     font-size: 22px;
     line-height: normal;
     margin-top: 17px;
+    a:not(.highlighted) {
+    text-decoration: none;
+    color: black;
 }
 
 .highlighted {
@@ -61,6 +64,7 @@
     max-width: 100%;
     height: auto;
      margin-left: -12px;
+    margin-top: 71px;
 }
 
 .container {
