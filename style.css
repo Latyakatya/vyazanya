@@ -35,10 +35,11 @@
     font-size: 22px;
     line-height: normal;
     margin-top: 17px;
-    a:not(.highlighted) {
+}
+
+.header__list a:not(.highlighted) {
     text-decoration: none;
     color: black;
-    }
 }
 
 .highlighted {
