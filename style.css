@@ -77,17 +77,22 @@ z-index: 2;
 .content__figcaption {
     font-size: 16px;
     line-height: normal;
-    margin-bottom: 54px;
+    margin-left: -52px;
+    margin-top: -17;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
+    padding-top: 13;
+    padding-right: 120;
 }
 
 .footer__copyright {
     font-size: 20px;
     font-weight: 600;
+    margin-left: -11px;
+    margin-top: -1px;
 }
 
 .social_icon {
