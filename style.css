@@ -52,43 +52,29 @@
     height: 58px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
 .content__paragraph {
-    width: 67.7%;
-    font-size: 24px;
-    line-height: normal;
-    margin: 0;
-    gap: 28px;
-    margin-top: -10px;
-    margin-left: -19px;
+  order: 1;
+  margin-top: -5px;
 }
 
 .content__image {
-    max-width: 100%;
-    height: auto;
-     margin-left: -12px;
-    margin-top: 71px;
-}
-
-.container {
-position: relative;
-}
-
-.container p {
-position: absolute;
-top: 10px;   
-left: 10px;
-z-index: 2;
+  order: 2;
 }
 
 .content__figcaption {
-    font-size: 16px;
-    line-height: normal;
-    margin-left: -52px;
-    margin-top: -17px;
+  order: 3;
+  margin-top: 5px;
 }
 
 .footer {display: flex;
-         margin-top: 52;
+         margin-top: 52px;
 }
 
 .footer__copyright {font-size: 20px;
